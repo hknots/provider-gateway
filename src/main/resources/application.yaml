@@ -1,8 +1,3 @@
-fint:
-  consumer:
-    domain: utdanning
-    package: vurdering
-
 quarkus:
   http:
-    root-path: ${fint.consumer.domain}/${fint.consumer.package}
+    root-path: provider
