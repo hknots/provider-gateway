@@ -21,6 +21,7 @@ dependencies {
     implementation("io.quarkus:quarkus-arc")
     implementation("io.quarkus:quarkus-resteasy")
     implementation("io.quarkus:quarkus-config-yaml")
+    implementation("io.quarkus:quarkus-kafka-client")
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
 }
